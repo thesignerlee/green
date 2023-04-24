@@ -1,0 +1,140 @@
+body > span {
+    position:fixed;
+    right:1%;
+    bottom:1%;
+    display: block;
+    img {}
+}
+header {
+    width: 1120px; margin:30px auto; height:100px;
+    display: flex;
+    flex-flow: column wrap;
+    .info {
+        text-align: end;
+        a {margin-left: 20px; font-weight: 700; position: relative; font-size: 0.9rem;}
+        a:hover {color:#1c7dec;}
+        a::after {content: ''; width:1px; height: 16px; background: #222; display: inline-block; position:absolute; right:-13px;}
+        a:last-child::after {display: none;}
+        a:first-child {margin: 0;}
+    }
+    nav {
+        justify-content: space-between; display: flex;
+        margin-top: 30px;
+        align-items: center;
+        h1 {
+            a {
+                img{}
+            }
+        }
+        > a {margin-left: -50px; font-weight: 700;}
+        .gra {padding: 15px; display: inline-block; background:linear-gradient(to right, purple, skyblue); color:#fff; border-radius: 10px;}
+    }
+}
+main {width: 1120px; margin:0px auto;
+    > img {transform: translateX(3%); margin: 100px 0;}
+    .contain {
+        text-align: center;
+        h2 {font-weight: 700; font-size: 2rem;
+        }
+        span {
+            margin-top: 30px;
+            display: inline-block; width: 3px; height: 15px; border: 2px solid #222; transform: skewX(-25deg);}
+    }
+    .tab {
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
+        a { padding: 15px 100px;}
+        a:nth-child(1) {border: 1px #222 solid;}
+        a:nth-child(2) {border: 1px #eee solid;}
+        a:nth-child(3) {border: 1px #eee solid; border-left: 0;}
+    }
+    .campaign {
+        text-align: center;
+        h2 {font-weight: 700; font-size: 1.5rem;}
+        > span {margin-top: 30px;
+            display: inline-block; width: 3px; height: 15px; border: 2px solid #222; transform: skewX(-25deg);
+        margin-bottom: 25px;
+        }
+        .acodian {margin: 50px 0;
+            p { border-top: #222 1px solid;
+                border-bottom: #222 1px solid; padding: 50px 0; margin: 5px 0; font-weight: 700;
+                em {font-size: 1.2rem; font-weight: 700;}
+            }
+            p:nth-child(1){}
+            p:nth-child(2){}
+            p:nth-child(3){}
+        }
+        .log {
+            table{width:100%;
+                tr{
+                    th {background-color: #eee; font-weight: 700; height: 50px; font-size: 0.9rem;}
+                    td {
+                        font-size: 0.9rem;
+                        height: 80px;
+                        a {}
+                    a:hover {text-decoration: underline;}
+                        span {
+                            font-size: 0.9rem; background: #1c7dec; color:#fff; border-radius: 5px; padding:5px;
+                        }
+                    }
+                }
+                tr:last-child {
+                    border-top: #eee 1px solid;
+                    border-bottom: #ddd 1px solid;
+                }
+            }
+            >span { text-align: center; color:#fff; background: #1c7dec; width:32px; height:32px; border-radius: 100%; display: inline-block; line-height: 32px; margin: 25px 0;}
+        }
+    }
+    .campaign1 {
+        h2 {}
+        > span {}
+        .acodian {
+            p {
+                em {}
+            }
+        }
+        .log {
+            th {}
+            td {a {}
+                span {}
+            }
+        }
+        span {}
+    }
+    .campaign2 {
+        h2 {}
+        > span {}
+        .log {
+            th {}
+        }
+        span {}
+    }
+    .campaign3 {
+        h2 {}
+        > span {}
+        .log {
+            th {}
+            td {a {}
+                span {}
+            }
+        }
+        span {}
+    }
+}
+footer {
+    width: 1120px; margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    .foot {
+        a {position: relative; font-size: 0.8rem; margin-right: 15px;
+        span {font-size: 0.8rem; color:#f00;}
+    }
+        a::after {content: ''; width:1px; height: 12px; background: #222; display: inline-block; position:absolute; right:-12px; top:3px;}
+        a:last-child:after {display:none; margin: 0;}
+    }
+    a {
+        img {}
+    }
+}

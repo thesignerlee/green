@@ -1,0 +1,196 @@
+body > span {
+  position: fixed;
+  right: 1%;
+  bottom: 1%;
+  display: block;
+}
+header {
+  width: 1120px;
+  margin: 30px auto;
+  height: 100px;
+  display: flex;
+  flex-flow: column wrap;
+}
+header .info {
+  text-align: end;
+}
+header .info a {
+  margin-left: 20px;
+  font-weight: 700;
+  position: relative;
+  font-size: 0.9rem;
+}
+header .info a:hover {
+  color: #1c7dec;
+}
+header .info a::after {
+  content: "";
+  width: 1px;
+  height: 16px;
+  background: #222;
+  display: inline-block;
+  position: absolute;
+  right: -13px;
+}
+header .info a:last-child::after {
+  display: none;
+}
+header .info a:first-child {
+  margin: 0;
+}
+header nav {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+header nav > a {
+  margin-left: -50px;
+  font-weight: 700;
+}
+header nav .gra {
+  padding: 15px;
+  display: inline-block;
+  background: linear-gradient(to right, purple, skyblue);
+  color: #fff;
+  border-radius: 10px;
+}
+
+main {
+  width: 1120px;
+  margin: 0px auto;
+}
+main > img {
+  transform: translateX(3%);
+  margin: 100px 0;
+}
+main .contain {
+  text-align: center;
+}
+main .contain h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+main .contain span {
+  margin-top: 30px;
+  display: inline-block;
+  width: 3px;
+  height: 15px;
+  border: 2px solid #222;
+  transform: skewX(-25deg);
+}
+main .tab {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+main .tab a {
+  padding: 15px 100px;
+}
+main .tab a:nth-child(1) {
+  border: 1px #222 solid;
+}
+main .tab a:nth-child(2) {
+  border: 1px #eee solid;
+}
+main .tab a:nth-child(3) {
+  border: 1px #eee solid;
+  border-left: 0;
+}
+main .campaign {
+  text-align: center;
+}
+main .campaign h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+main .campaign > span {
+  margin-top: 30px;
+  display: inline-block;
+  width: 3px;
+  height: 15px;
+  border: 2px solid #222;
+  transform: skewX(-25deg);
+  margin-bottom: 25px;
+}
+main .campaign .acodian {
+  margin: 50px 0;
+}
+main .campaign .acodian p {
+  border-top: #222 1px solid;
+  border-bottom: #222 1px solid;
+  padding: 50px 0;
+  margin: 5px 0;
+  font-weight: 700;
+}
+main .campaign .acodian p em {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+main .campaign .log table {
+  width: 100%;
+}
+main .campaign .log table tr th {
+  background-color: #eee;
+  font-weight: 700;
+  height: 50px;
+  font-size: 0.9rem;
+}
+main .campaign .log table tr td {
+  font-size: 0.9rem;
+  height: 80px;
+}
+main .campaign .log table tr td a:hover {
+  text-decoration: underline;
+}
+main .campaign .log table tr td span {
+  font-size: 0.9rem;
+  background: #1c7dec;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+main .campaign .log table tr:last-child {
+  border-top: #eee 1px solid;
+  border-bottom: #ddd 1px solid;
+}
+main .campaign .log > span {
+  text-align: center;
+  color: #fff;
+  background: #1c7dec;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  display: inline-block;
+  line-height: 32px;
+  margin: 25px 0;
+}
+footer {
+  width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .foot a {
+  position: relative;
+  font-size: 0.8rem;
+  margin-right: 15px;
+}
+footer .foot a span {
+  font-size: 0.8rem;
+  color: #f00;
+}
+footer .foot a::after {
+  content: "";
+  width: 1px;
+  height: 12px;
+  background: #222;
+  display: inline-block;
+  position: absolute;
+  right: -12px;
+  top: 3px;
+}
+footer .foot a:last-child:after {
+  display: none;
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
